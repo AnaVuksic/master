@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:components/searchpage:
+      .meta:order-before: movie
+      jcr:primaryType: hst:component
+      hst:componentclassname: org.example.components.SimpleComponent

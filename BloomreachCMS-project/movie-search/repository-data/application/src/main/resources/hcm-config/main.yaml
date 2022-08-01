@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    moviesearch:
+      uri: http://www.moviesearch.com/moviesearch/nt/1.0
+      cnd: namespaces/movie-search.cnd

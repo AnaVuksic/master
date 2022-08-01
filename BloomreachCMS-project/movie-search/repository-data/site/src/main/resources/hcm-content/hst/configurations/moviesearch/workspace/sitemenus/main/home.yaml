@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/moviesearch/hst:workspace/hst:sitemenus/main/home:
+  .meta:order-before: about
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: root

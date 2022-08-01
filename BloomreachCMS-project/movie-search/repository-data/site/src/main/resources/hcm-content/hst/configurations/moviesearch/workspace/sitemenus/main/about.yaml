@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/moviesearch/hst:workspace/hst:sitemenus/main/about:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: about
+  hst:repobased: false

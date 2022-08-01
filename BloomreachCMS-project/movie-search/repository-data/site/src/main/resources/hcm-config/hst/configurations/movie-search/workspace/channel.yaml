@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:name: MovieSearch
+      hst:type: website

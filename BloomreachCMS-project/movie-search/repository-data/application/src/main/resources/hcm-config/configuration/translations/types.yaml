@@ -1,0 +1,110 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/moviesearch:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        moviesearch:content: Content
+        moviesearch:image: Image
+        moviesearch:link: Link
+        moviesearch:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        moviesearch:content: Inhoud
+        moviesearch:image: Afbeelding
+        moviesearch:link: Link
+        moviesearch:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        moviesearch:content: Contenu
+        moviesearch:image: Image
+        moviesearch:link: Lien
+        moviesearch:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        moviesearch:content: Inhalt
+        moviesearch:image: Abbildung
+        moviesearch:link: Link
+        moviesearch:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/moviesearch:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        moviesearch:author: Author
+        moviesearch:content: Content
+        moviesearch:date: Date
+        moviesearch:image: Image
+        moviesearch:introduction: Introduction
+        moviesearch:location: Location
+        moviesearch:source: Source
+        moviesearch:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        moviesearch:author: Auteur
+        moviesearch:content: Inhoud
+        moviesearch:date: Datum
+        moviesearch:image: Afbeelding
+        moviesearch:introduction: Introductie
+        moviesearch:location: Locatie
+        moviesearch:source: Bron
+        moviesearch:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        moviesearch:author: Verfasser
+        moviesearch:content: Inhalt
+        moviesearch:date: Datum
+        moviesearch:image: Abbildung
+        moviesearch:introduction: Einführung
+        moviesearch:location: Standort
+        moviesearch:source: Quelle
+        moviesearch:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        moviesearch:author: Auteur
+        moviesearch:content: Contenu
+        moviesearch:date: Date
+        moviesearch:image: Image
+        moviesearch:introduction: Introduction
+        moviesearch:location: Lieu
+        moviesearch:source: Source
+        moviesearch:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/moviesearch:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        moviesearch:content: Content
+        moviesearch:introduction: Introduction
+        moviesearch:publicationdate: Publication date
+        moviesearch:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        moviesearch:content: Inhoud
+        moviesearch:introduction: Introductie
+        moviesearch:publicationdate: Publicatiedatum
+        moviesearch:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        moviesearch:content: Contenu
+        moviesearch:introduction: Introduction
+        moviesearch:publicationdate: Date de publication
+        moviesearch:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        moviesearch:content: Inhalt
+        moviesearch:introduction: Einführung
+        moviesearch:publicationdate: Publikationsdatum
+        moviesearch:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/moviesearch:imageset:
+      jcr:primaryType: hipposys:resourcebundles

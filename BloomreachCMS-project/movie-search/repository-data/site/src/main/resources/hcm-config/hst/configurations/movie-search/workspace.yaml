@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:workspace:
+      jcr:primaryType: hst:workspace

@@ -1,0 +1,6 @@
+group:
+  name: movie-search
+  after: hippo-cms
+project: movie-search
+module:
+  name: movie-search-repository-data-application

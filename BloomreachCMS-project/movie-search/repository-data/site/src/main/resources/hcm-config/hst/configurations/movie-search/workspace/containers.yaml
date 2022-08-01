@@ -1,0 +1,67 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:workspace/hst:containers:
+      jcr:primaryType: hst:containercomponentfolder
+      /base:
+        jcr:primaryType: hst:containercomponentfolder
+        /top:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 5dc9e03b-af5e-4f4e-9d40-9b6a07208e2f
+          hst:label: Top
+          hst:xtype: hst.vbox
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 88aeef44-88af-4ecc-bd32-9b70f24c56f2
+          hst:label: Footer
+          hst:xtype: hst.vbox
+      /homepage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 4bb6a16e-f23c-4c2d-a86b-80cef4dea744
+          hst:label: Home Page Main
+          hst:xtype: hst.vbox
+          hst:lastmodified: 2021-05-18T20:07:18.834+02:00
+      /pagenotfound:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 0759ce42-a291-4cb8-a635-79064df756cc
+          hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
+      /newslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 814bc69c-889f-40be-b3ee-7717282595d2
+          hst:label: News List Main
+          hst:xtype: hst.vbox
+      /newspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 355c8740-dc84-422e-9a76-65a0bf70b48e
+          hst:label: News Page Main
+          hst:xtype: hst.vbox
+      /contentlist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 320dee19-7939-4a0c-9608-135d9a46add2
+          hst:label: Content List Main
+          hst:xtype: hst.vbox
+      /contentpage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: fb6cd230-f441-4fd2-8cc8-12755905aa51
+          hst:label: Content Page Main
+          hst:xtype: hst.vbox

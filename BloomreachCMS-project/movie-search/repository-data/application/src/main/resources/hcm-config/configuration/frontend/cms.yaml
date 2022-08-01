@@ -1,0 +1,55 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:small:
+      .meta:order-before: moviesearch:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 224
+      upscaling: false
+      width: 491
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:large:
+      .meta:order-before: moviesearch:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 302
+      upscaling: false
+      width: 663
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:smallsquare:
+      .meta:order-before: moviesearch:mediumsquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 233
+      upscaling: false
+      width: 233
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:mediumsquare:
+      .meta:order-before: moviesearch:largesquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 313
+      upscaling: false
+      width: 313
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:largesquare:
+      .meta:order-before: moviesearch:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 663
+      upscaling: false
+      width: 663
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/moviesearch:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 1070
+      compression: 1.0
+      cropping: false
+      optimize: quality

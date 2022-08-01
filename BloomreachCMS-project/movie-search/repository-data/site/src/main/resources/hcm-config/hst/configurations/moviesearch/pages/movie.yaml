@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:pages/movie:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: movie
+        hst:referencecomponent: hst:components/movie

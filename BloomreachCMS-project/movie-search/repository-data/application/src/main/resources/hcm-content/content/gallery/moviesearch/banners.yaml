@@ -1,0 +1,411 @@
+/content/gallery/moviesearch/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-moviesearch-imageset-folder]
+  hippostd:gallerytype: ['moviesearch:imageset']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+    /banner-1.jpg:
+      jcr:primaryType: moviesearch:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/small/small.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.686+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/large/large.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.743+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.803+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.864+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.924+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-1.jpg/banner-1.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.992+02:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+    /banner-2.jpg:
+      jcr:primaryType: moviesearch:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/small/small.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.505+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/large/large.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.533+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.561+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.582+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.604+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-05-06T18:07:00.634+02:00
+        jcr:mimeType: image/jpeg
+  /office.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 827642a3-bf01-43a8-beef-e7efb0e0d443
+    /office.jpg:
+      jcr:primaryType: moviesearch:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: office.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office.jpg
+        hippogallery:height: 50
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 267
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/small/small.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1071
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/original/original.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/large/large.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 298
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 554
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 261
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 194
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/office.jpg/office.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:29.943+02:00
+        jcr:mimeType: image/jpeg
+  /study.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 44a7231e-8d84-4e17-a20b-a8b3f3725783
+    /study.jpg:
+      jcr:primaryType: moviesearch:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: study.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: study.jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/small/small.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 859
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/original/original.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 450
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/large/large.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 372
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 444
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 210
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 156
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/study.jpg/study.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:31.153+02:00
+        jcr:mimeType: image/jpeg
+  /thermostat2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d703da3b-60dd-4609-964f-d9cd67dcb7a6
+    /thermostat2.jpg:
+      jcr:primaryType: moviesearch:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: thermostat2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: thermostat2.jpg
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 336
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/small/small.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 853
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/original/original.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 453
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/large/large.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 375
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 441
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 208
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg
+      /moviesearch:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 155
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/moviesearch/banners/thermostat2.jpg/thermostat2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-05-06T21:03:51.557+02:00
+        jcr:mimeType: image/jpeg

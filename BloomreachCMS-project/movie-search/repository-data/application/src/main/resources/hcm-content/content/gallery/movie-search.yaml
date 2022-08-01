@@ -1,0 +1,7 @@
+/content/gallery/moviesearch:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 3e124237-b04a-4673-9688-ac038b03eb49
+  hippo:name: MovieSearch
+  hippostd:foldertype: [new-moviesearch-imageset-folder]
+  hippostd:gallerytype: ['moviesearch:imageset']

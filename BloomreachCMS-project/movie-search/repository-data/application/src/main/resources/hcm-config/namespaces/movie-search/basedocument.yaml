@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/moviesearch/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6481c3b5-9572-40bf-abcd-fa8e3341bad0
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6550ad44-e1ba-42a7-b67c-21d1cc352bed
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.moviesearch.com/moviesearch/nt/1.0

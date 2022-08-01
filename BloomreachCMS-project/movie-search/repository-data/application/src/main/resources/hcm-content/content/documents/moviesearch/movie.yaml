@@ -1,0 +1,49 @@
+/content/documents/moviesearch/movie:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: c5f3ea67-934c-4cc2-a29d-0bdb36d61ecf
+  hippo:name: Movie
+  hippo:versionHistory: e6038dab-eb2a-4305-a70a-d4061a61c17c
+  /movie[1]:
+    jcr:primaryType: moviesearch:movie
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 23211d4f-2594-4297-ab98-3a06cb9ab697
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-14T15:23:00.319+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-14T15:23:00.319+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 8f024352-105b-4a03-84c5-3fec3106b9ff
+    hippotranslation:locale: en
+    moviesearch:title: 'More info about the movie:'
+  /movie[2]:
+    jcr:primaryType: moviesearch:movie
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 31d813ce-4dbf-4a4c-a440-39f560c75e63
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-14T15:23:00.319+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-14T15:23:17.830+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 8f024352-105b-4a03-84c5-3fec3106b9ff
+    hippotranslation:locale: en
+    moviesearch:title: 'More info about the movie:'
+  /movie[3]:
+    jcr:primaryType: moviesearch:movie
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4976b211-2292-49a2-8aa4-4e16b7fa0b18
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-14T15:23:00.319+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-14T15:23:17.830+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2021-05-14T15:23:22.107+02:00
+    hippotranslation:id: 8f024352-105b-4a03-84c5-3fec3106b9ff
+    hippotranslation:locale: en
+    moviesearch:title: 'More info about the movie:'

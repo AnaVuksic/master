@@ -1,0 +1,6 @@
+site: movie-search
+group: movie-search
+project: movie-search
+module:
+  name: movie-search-repository-data-site-development
+  after: movie-search-repository-data-site

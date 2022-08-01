@@ -1,0 +1,82 @@
+/content/gallery/moviesearch/camera-film-wallpaper-3.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: e83bf68b-96f2-49ee-ba76-a91b159b94d7
+  hippo:name: Camera-Film-Wallpaper-3.jpg
+  /camera-film-wallpaper-3.jpg:
+    jcr:primaryType: moviesearch:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: Camera-Film-Wallpaper-3.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: Camera-Film-Wallpaper-3.jpg
+      hippogallery:height: 45
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/thumbnail/thumbnail.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 224
+      hippogallery:width: 294
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/small/small.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 950
+      hippogallery:width: 1250
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/original/original.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 302
+      hippogallery:width: 397
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/large/large.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 328
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/banner/banner.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 503
+      hippogallery:width: 663
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/largesquare/largesquare.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 237
+      hippogallery:width: 313
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 233
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/camera-film-wallpaper-3.jpg/camera-film-wallpaper-3.jpg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2021-06-14T21:09:45.916+02:00
+      jcr:mimeType: image/jpeg

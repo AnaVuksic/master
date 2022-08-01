@@ -1,0 +1,92 @@
+/content/documents/moviesearch/content:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: dfd240fa-3940-4221-a7f1-680c04d5b5ca
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 41ec0042-868f-4002-890d-f69bff09612b
+  hippotranslation:locale: en
+  /sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 64ab4648-0c20-40d2-9f18-d7a394f0334b
+    hippo:name: Sample document
+    /sample-document:
+      jcr:primaryType: moviesearch:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 38ce152a-289c-42e4-bddb-125160a12e93
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
+      hippotranslation:id: d6bbaf6e-eefe-4704-b229-f5eba14ff5f8
+      hippotranslation:locale: en
+      moviesearch:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      moviesearch:publicationdate: 2014-03-25T16:52:00+01:00
+      moviesearch:title: Lorem
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /another-sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9caea793-42b1-4f3e-a8e5-d58f810ce2ef
+    hippo:name: Another sample document
+    /another-sample-document:
+      jcr:primaryType: moviesearch:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5fe0be6f-06c2-473a-8e84-081de4e3d57e
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
+      hippotranslation:id: 2feb3fd3-5b69-4771-8348-e6f392e5ca92
+      hippotranslation:locale: en
+      moviesearch:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      moviesearch:publicationdate: 2014-03-25T16:52:00+01:00
+      moviesearch:title: Another Lorem
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>

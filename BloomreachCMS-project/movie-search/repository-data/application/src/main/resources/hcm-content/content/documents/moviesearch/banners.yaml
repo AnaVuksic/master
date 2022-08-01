@@ -1,0 +1,347 @@
+/content/documents/moviesearch/banners:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 4eae8cba-ad3e-44bb-bb74-562b899989c0
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: bdb87e59-d4c0-439a-8104-7beb84aaba15
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    /banner1:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b3baa89f-522b-4df6-b7f3-5c20ec65e03b
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 65d2dc54-f983-4c18-83a0-349670412ec2
+      hippotranslation:locale: en
+      moviesearch:title: Sample banner
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9692f378-d968-4a96-95d4-da48a2cb0b25
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 46cdb25e-6310-45c6-9a5f-21d782f12f33
+      hippotranslation:locale: en
+      moviesearch:title: Sample banner 2
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /10-simple-steps-to-green-your-office:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 382d0808-e90d-43f8-9dfc-d9f69981f85c
+    hippo:name: 10 Simple Steps to Green Your Office
+    hippo:versionHistory: 0e268d15-094a-4920-a04f-fe240fd9c0be
+    /10-simple-steps-to-green-your-office[1]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 389ac765-d0b6-44bc-970a-71534edd25c9
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:05:12.089+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:05:12.089+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f19184b-880f-4d3b-ab2d-c427106ae003
+      hippotranslation:locale: en
+      moviesearch:title: 10 Simple Steps to Green Your Office
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps to Green Your Office10 Simple Steps to
+          Green Your Office</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 827642a3-bf01-43a8-beef-e7efb0e0d443
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[2]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 2c02d04f-5659-4114-805c-875ece44157b
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:05:12.089+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:06:20.897+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8f19184b-880f-4d3b-ab2d-c427106ae003
+      hippotranslation:locale: en
+      moviesearch:title: 10 Simple Steps to Green Your Office
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps to Green Your Office10 Simple Steps to
+          Green Your Office</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 827642a3-bf01-43a8-beef-e7efb0e0d443
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[3]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a4784526-c27f-4c5b-ab17-0614ab8fee9d
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:05:12.089+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:06:20.897+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-05-06T21:06:23.556+02:00
+      hippotranslation:id: 8f19184b-880f-4d3b-ab2d-c427106ae003
+      hippotranslation:locale: en
+      moviesearch:title: 10 Simple Steps to Green Your Office
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps to Green Your Office10 Simple Steps to
+          Green Your Office</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 827642a3-bf01-43a8-beef-e7efb0e0d443
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+  /is-a-smart-thermostat-worth-the-investment:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 0ed3f61c-523f-4399-9c4b-60668512ff32
+    hippo:name: Is a Smart Thermostat Worth the Investment?
+    hippo:versionHistory: 9b8bd5e0-f61e-40a3-b4a2-86f1a7a2ac68
+    /is-a-smart-thermostat-worth-the-investment[1]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5466ee82-8061-4380-b02b-8ce2f3e75436
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:07:50.699+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:07:50.700+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ea9aca27-27f4-4950-b59e-1c162f199d89
+      hippotranslation:locale: en
+      moviesearch:title: Is a Smart Thermostat Worth the Investment?
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?Is a Smart
+          Thermostat Worth the Investment?</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 44a7231e-8d84-4e17-a20b-a8b3f3725783
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[2]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 094a92d3-be97-46b7-8bbf-12fb10651cc3
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:07:50.699+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:08:08.079+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ea9aca27-27f4-4950-b59e-1c162f199d89
+      hippotranslation:locale: en
+      moviesearch:title: Is a Smart Thermostat Worth the Investment?
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?Is a Smart
+          Thermostat Worth the Investment?</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 44a7231e-8d84-4e17-a20b-a8b3f3725783
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[3]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d319c4f9-7bcd-483d-bdf6-0078982868f2
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:07:50.699+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:08:08.079+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-05-06T21:08:11.397+02:00
+      hippotranslation:id: ea9aca27-27f4-4950-b59e-1c162f199d89
+      hippotranslation:locale: en
+      moviesearch:title: Is a Smart Thermostat Worth the Investment?
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?Is a Smart
+          Thermostat Worth the Investment?</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 44a7231e-8d84-4e17-a20b-a8b3f3725783
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+  /how-to-green-your-dorm-room:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 35483447-787f-4582-92c8-84579296fc5d
+    hippo:name: How to Green Your Dorm Room
+    hippo:versionHistory: 5f670f67-8825-4c0a-b4e9-b93e59a0d43d
+    /how-to-green-your-dorm-room[1]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 94ff679a-ad75-4ba2-a461-5a4a2abb8f7e
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:08:19.641+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:08:27.602+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a58eeb6e-9fbe-4875-9720-9796d98faf8c
+      hippotranslation:locale: en
+      moviesearch:title: How to Green Your Dorm Room
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm RoomHow to Green Your Dorm Room</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d703da3b-60dd-4609-964f-d9cd67dcb7a6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[2]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6a61a0af-9b7c-4505-ae8d-4a6565013b86
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:08:19.641+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:08:34.933+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a58eeb6e-9fbe-4875-9720-9796d98faf8c
+      hippotranslation:locale: en
+      moviesearch:title: How to Green Your Dorm Room
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm RoomHow to Green Your Dorm Room</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d703da3b-60dd-4609-964f-d9cd67dcb7a6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[3]:
+      jcr:primaryType: moviesearch:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8778d785-7c6d-41b0-9df4-3598a48d5f08
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:08:19.641+02:00
+      hippostdpubwf:lastModificationDate: 2021-05-06T21:08:34.933+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-05-06T21:08:37.643+02:00
+      hippotranslation:id: a58eeb6e-9fbe-4875-9720-9796d98faf8c
+      hippotranslation:locale: en
+      moviesearch:title: How to Green Your Dorm Room
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm RoomHow to Green Your Dorm Room</p>
+      /moviesearch:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d703da3b-60dd-4609-964f-d9cd67dcb7a6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /moviesearch:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8

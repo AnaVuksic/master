@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/moviesearch:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 917acf81-cee0-4593-bf9f-7fa3565d6b82

@@ -1,0 +1,59 @@
+/content/documents/moviesearch/search-page:
+  .meta:order-before: movie
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 71521424-c8c3-493e-b130-56dc2e1797d5
+  hippo:name: Search page
+  hippo:versionHistory: 7a9dd2cd-657e-497c-a53a-b2a85f5aec89
+  /search-page[1]:
+    jcr:primaryType: moviesearch:SearchPage
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6b276cbe-48d9-470f-a925-be42446b4840
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-11T20:24:51.330+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-11T20:24:51.330+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 2912e400-a1aa-498b-85bf-fe665c4ddee8
+    hippotranslation:locale: en
+    moviesearch:title: Hello Title
+    /moviesearch:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello Content</p>
+  /search-page[2]:
+    jcr:primaryType: moviesearch:SearchPage
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: fcea8251-816c-4d16-bf7f-798c033a0954
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-11T20:24:51.330+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-11T20:25:29.735+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 2912e400-a1aa-498b-85bf-fe665c4ddee8
+    hippotranslation:locale: en
+    moviesearch:title: Hello Title
+    /moviesearch:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello Content</p>
+  /search-page[3]:
+    jcr:primaryType: moviesearch:SearchPage
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1dc9030c-b0bb-4748-a284-e9a13560ef40
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-05-11T20:24:51.330+02:00
+    hippostdpubwf:lastModificationDate: 2021-05-11T20:25:29.735+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2021-05-11T20:25:34.072+02:00
+    hippotranslation:id: 2912e400-a1aa-498b-85bf-fe665c4ddee8
+    hippotranslation:locale: en
+    moviesearch:title: Hello Title
+    /moviesearch:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello Content</p>

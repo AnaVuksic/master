@@ -1,0 +1,93 @@
+/content/documents/moviesearch/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 87eeada3-7520-4807-a9d5-7a7bfdd621ae
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: add675cc-7c43-48a7-8859-5f66016edaaa
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 111bcdc6-d10c-4e02-8ed4-b61a619e8841
+    hippo:name: About
+    hippo:versionHistory: 1659b4a9-ed95-4928-a8da-9c3533d265c0
+    /about[1]:
+      jcr:primaryType: moviesearch:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 353f9c11-9972-455c-a6f2-834b136a4abe
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:58:57.586+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-23T20:03:13.843+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0b305bc5-7817-4387-a231-c3fd776ffc12
+      hippotranslation:locale: en
+      moviesearch:introduction: Hello! This is an an web application, created as part
+        of the master thesis.
+      moviesearch:publicationdate: 2021-05-06T21:59:00+02:00
+      moviesearch:title: About this web application
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We are listing technologies here:</p>
+
+          <ul>
+           <li>&nbsp;</li>
+          </ul>
+    /about[2]:
+      jcr:primaryType: moviesearch:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9d37e487-6637-466c-b605-641b96fef2b9
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:58:57.586+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-23T20:03:10.686+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0b305bc5-7817-4387-a231-c3fd776ffc12
+      hippotranslation:locale: en
+      moviesearch:introduction: Hello! This is an an web application, created as part
+        of the master thesis.
+      moviesearch:publicationdate: 2021-05-06T21:59:00+02:00
+      moviesearch:title: About this web application
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We are listing technologies here:</p>
+
+          <ul>
+           <li>&nbsp;</li>
+          </ul>
+    /about[3]:
+      jcr:primaryType: moviesearch:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 97cb0fee-7e97-4406-92bf-9ddda0b21bd2
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-05-06T21:58:57.586+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-23T20:03:10.686+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-23T20:03:13.643+02:00
+      hippotranslation:id: 0b305bc5-7817-4387-a231-c3fd776ffc12
+      hippotranslation:locale: en
+      moviesearch:introduction: Hello! This is an an web application, created as part
+        of the master thesis.
+      moviesearch:publicationdate: 2021-05-06T21:59:00+02:00
+      moviesearch:title: About this web application
+      /moviesearch:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We are listing technologies here:</p>
+
+          <ul>
+           <li>&nbsp;</li>
+          </ul>

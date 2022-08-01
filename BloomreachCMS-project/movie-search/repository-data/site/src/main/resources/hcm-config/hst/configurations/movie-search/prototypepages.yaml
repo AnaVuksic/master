@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:prototypepages:
+      jcr:primaryType: hst:pages

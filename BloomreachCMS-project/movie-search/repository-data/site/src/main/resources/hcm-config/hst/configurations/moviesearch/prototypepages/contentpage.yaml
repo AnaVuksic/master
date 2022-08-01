@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:prototypepages/contentpage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Simple Content Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hippo:identifier: 6aab6852-6a8f-4e34-a984-5773539ee097
+        hst:label: Content Page Main
+        hst:xtype: hst.vbox

@@ -1,0 +1,27 @@
+<'moviesearch'='http://www.moviesearch.com/moviesearch/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+
+[moviesearch:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[moviesearch:SearchPage] > hippostd:relaxed, hippotranslation:translated, moviesearch:basedocument
+  orderable
+
+[moviesearch:bannerdocument] > hippostd:relaxed, hippotranslation:translated, moviesearch:basedocument
+  orderable
+
+[moviesearch:contentdocument] > hippostd:relaxed, hippotranslation:translated, moviesearch:basedocument
+  orderable
+
+[moviesearch:imageset] > hippogallery:imageset, hippogallery:relaxed
+
+[moviesearch:movie] > hippostd:relaxed, hippotranslation:translated, moviesearch:basedocument
+  orderable
+
+[moviesearch:newsdocument] > hippostd:relaxed, hippotranslation:translated, moviesearch:basedocument
+  orderable
+

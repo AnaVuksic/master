@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/moviesearch/hst:pages/homepage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: homepage-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/main
+      /search:
+        jcr:primaryType: hst:component
+        hst:template: moviesearch
+        hst:referencecomponent: hst:components/searchpage

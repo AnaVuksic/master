@@ -1,0 +1,83 @@
+/content/gallery/moviesearch/download.jpeg:
+  .meta:order-before: camera-film-wallpaper-3.jpg
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: a4c9d3d3-6734-4c41-a1e5-ec84d564426a
+  /download.jpeg:
+    jcr:primaryType: moviesearch:imageset
+    hippo:availability: [live, preview]
+    hippogallery:description: ''
+    hippogallery:filename: download.jpeg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: download.jpeg
+      hippogallery:height: 60
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/thumbnail/thumbnail.jpg
+      jcr:lastModified: 2021-06-14T21:07:13.325+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/small/small.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/original/original.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/large/large.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/banner/banner.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/largesquare/largesquare.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 177
+      hippogallery:width: 284
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg
+    /moviesearch:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 145
+      hippogallery:width: 233
+      jcr:data:
+        type: binary
+        resource: /content/gallery/moviesearch/download.jpeg/download.jpeg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2021-06-14T21:04:36.238+02:00
+      jcr:mimeType: image/jpeg

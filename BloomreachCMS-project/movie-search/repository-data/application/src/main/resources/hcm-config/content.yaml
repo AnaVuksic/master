@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /content/gallery:
+      hippostd:foldertype: [new-moviesearch-imageset-folder]
+      hippostd:gallerytype: ['moviesearch:imageset']

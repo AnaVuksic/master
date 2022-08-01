@@ -1,0 +1,24 @@
+/hst:hst/hst:configurations/moviesearch/hst:workspace/hst:pages/about-contentpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2021-05-06T22:01:52.605+02:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    hippo:identifier: 6aab6852-6a8f-4e34-a984-5773539ee097
+    hst:label: Content Page Main
+    hst:lastmodified: 2021-05-17T23:22:53.726+02:00
+    hst:xtype: hst.vbox
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+      hst:label: Banner
+      hst:template: essentials-banner
+    /simplecontent:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+      hst:label: Simple Content
+      hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [about/about, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+      hst:template: contentpage-main
