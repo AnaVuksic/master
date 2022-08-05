@@ -81,7 +81,7 @@
                             </fieldset>
                         </form>-->
                         ${movie.imdb_title_id}${item.imdb_title_id}
-                        <form autocomplete="off" action="movie?id=${movie.imdb_title_id}" target="_self">
+                        <form autocomplete="off" action="movie?id=${movie.imdb_title_id}" target="_self" method="get">
                             <div class="autocomplete" style="width:auto;">
                                 <input id="id" type="text" name="id" hidden value="${movie.imdb_title_id}" placeholder="Search movie...">
 

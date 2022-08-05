@@ -7,14 +7,15 @@
         <#if document??>
             <h3>${document.title?html}</h3>
 
-            <div class="row">
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" placeholder="Search for...." aria-describedby="button-addon2">
-                    </div>
-                    <div class="col-md-3">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-                    </div>
-            </div>
+
+            <form autocomplete="off" action="moviesearch" target="_self" method="get">
+                <div class="col-md-9">
+                    <input type="text" class="form-control" name="name" placeholder="Search for...." aria-describedby="button-addon2">
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" value="Search">
+                </div>
+            </form>
 
             <#list movies as item>
                 <div class="container">

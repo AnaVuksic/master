@@ -31,11 +31,7 @@ class AddReviewController {
         val updateByQueryRequest = UpdateByQueryRequest("test1")
         updateByQueryRequest.setConflicts("proceed")
 
-
-        val movie = MovieByIdController().searchMovieById(id)
-        val movieId = movie?.document_id
-
-        updateByQueryRequest.setQuery(TermQueryBuilder("_id", movieId))
+        updateByQueryRequest.setQuery(TermQueryBuilder("imdb_title_id", id))
 
         val script = Script(ScriptType.INLINE, "painless", "ctx._source.review.add(params)", updateMap2)
         updateByQueryRequest.script = script
