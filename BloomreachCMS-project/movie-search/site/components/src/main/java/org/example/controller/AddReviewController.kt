@@ -28,7 +28,7 @@ class AddReviewController {
         updateMap2["review"] = review
         updateMap2["user"] = user
 
-        val updateByQueryRequest = UpdateByQueryRequest("test1")
+        val updateByQueryRequest = UpdateByQueryRequest("movies")
         updateByQueryRequest.setConflicts("proceed")
 
         updateByQueryRequest.setQuery(TermQueryBuilder("imdb_title_id", id))

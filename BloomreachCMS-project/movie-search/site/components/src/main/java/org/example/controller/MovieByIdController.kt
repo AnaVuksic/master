@@ -23,7 +23,7 @@ class MovieByIdController: BaseHstComponent() {
                         HttpHost("localhost", 9200, "http"),
                         HttpHost("localhost", 9201, "http")))
 
-        val searchRequest = SearchRequest("test1")
+        val searchRequest = SearchRequest("movies")
         val searchSourceBuilder = SearchSourceBuilder()
         searchSourceBuilder.size(1)
         //searchSourceBuilder.sort(new FieldSortBuilder("id").order(SortOrder.ASC));

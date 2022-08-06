@@ -268,7 +268,7 @@ curl -XGET "http://localhost:9200/tesla_employees/_search"
             input = input.concat("*~0.8")
             console.log(input);
 
-            var url = 'http://localhost:9200/test1/_search?q=original_title:';
+            var url = 'http://localhost:9200/movies/_search?q=original_title:';
             url = url+input
 
             console.log(url)
