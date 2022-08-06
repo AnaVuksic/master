@@ -3,7 +3,7 @@
 This web application is developed as a part of master thesis. It will showcase interaction between Bloomreach experience manager and Elasticsearch.
 Users will be able to search movies, read news and leave reviews on movie page. On the other side we will have authors that will be able to create and maintain news on the website using Bloomreach CMS.
 
-[Screenshot of the homepage](homepage.png)
+![Screenshot of the homepage](homepage.png)
 
 How to run this web application:
 
